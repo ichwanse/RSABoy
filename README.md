@@ -17,7 +17,7 @@ Above command will generate `Bolang.priv.pem` and `Bolang.pub.pem` in Bolang's d
 ```
 $ rsaboy.jar '{"command": "generate_key", "filename": "Batman"}'
 ```
-Above command will generate `Batmat.priv.pem` and `Batman.pub.pem` in Batman's device.
+Above command will generate `Batman.priv.pem` and `Batman.pub.pem` in Batman's device.
 
 ### Step 2
 In this step they have to share their public key
@@ -25,7 +25,7 @@ In this step they have to share their public key
 Bolang send his public key `Bolang.pub.pem` to Batman
 
 #### Batman
-Batman send his public key `Batmat.pub.pem` to Bolang
+Batman send his public key `Batman.pub.pem` to Bolang
 
 ### Step 3
 #### Bolang
